@@ -1,0 +1,13 @@
+module DefenseData {
+  #pragma DCPS_DATA_TYPE "DefenseData::SitrepMessage"
+  #pragma DCPS_DATA_KEY "DefenseData::SitrepMessage trackId"
+
+  struct SitrepMessage {
+    string sourceId;
+    long trackId;
+    string identidad;
+    double latitud;
+    double longitud;
+    string infoAmpliatoria;
+  };
+};

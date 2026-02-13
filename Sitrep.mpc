@@ -1,0 +1,13 @@
+project(*Publisher) : dcpsexe, dcps_rtps_udp {
+  exename   = publisher
+  lit_libs += sqlite3
+
+  TypeSupport_Files {
+    Sitrep.idl
+  }
+
+  Source_Files {
+    DataReaderListenerImpl.cpp
+    main.cpp
+  }
+}
