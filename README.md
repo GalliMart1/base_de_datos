@@ -46,12 +46,12 @@ Para probar la comunicación, simula al menos dos nodos. El proyecto utiliza el 
 **Terminal 1 (Nodo Alfa):** 
 
 ```Bash
-./sitrep_node -DCPSConfigFile rtps.ini
+./publisher -DCPSConfigFile rtps.ini
 ```
 **Terminal 2 (Nodo Bravo):** 
 
 ```Bash
-./sitrep_node -DCPSConfigFile rtps.ini
+./publisher -DCPSConfigFile rtps.ini
 ```
   *Nota: Al iniciar, el sistema te pedirá que ingreses un nombre para identificar la terminal actual en la red.*
 
